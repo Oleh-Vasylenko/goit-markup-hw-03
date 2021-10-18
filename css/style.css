@@ -1,0 +1,220 @@
+/* my constant  color */
+:root {
+  --text-color: #757575;
+  --text-bold-color: #212121;
+  --transparent-text-color: rgba(255, 255, 255, 0.6);
+  --accent-color: #2196f3;
+  --hero-button-hover-color: #188ce8;
+  --footer-color: #2f303a;
+  --gray-background: #f5f4fa;
+  --header-line-color: #ececec;
+  --white: #fff;
+}
+/* .page -is basic style for tag body*/
+.page {
+  font-family: 'Roboto', sans-serif;
+  background-color: var(--white);
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.03em;
+  line-height: 1.71;
+  color: var(--text-color);
+}
+/* logo styles*/
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-size: 26px;
+  line-height: 1.19;
+  font-weight: 700;
+  color: #000000;
+  text-decoration: none;
+}
+
+.logo-first-text {
+  color: var(--accent-color);
+}
+/* nav-menu styles*/
+.site-nav-list {
+  list-style: none;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  line-height: 1.14;
+}
+
+/*contacts menu styles*/
+.auth-nav-list {
+  list-style: none;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  line-height: 1.14;
+}
+
+.site-nav-link {
+  text-decoration: none;
+  color: var(--text-bold-color);
+}
+.site-nav-link-active {
+  text-decoration: none;
+  color: var(--accent-color);
+}
+.auth-nav-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.site-nav-link:hover,
+.auth-nav-link:hover,
+.site-nav-link:focus,
+.auth-nav-link:focus {
+  color: #2196f3;
+}
+/* first section whith h1 title*/
+.section-main {
+  background-color: var(--footer-color);
+}
+
+.main-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  background-color: var(--footer-color);
+  color: var(--white);
+  text-align: center;
+  text-transform: uppercase;
+}
+.section-title {
+  color: var(--text-bold-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+}
+/* basic style for all button in page*/
+.button {
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+  background-color: var(--gray-background);
+}
+
+/* style for button "заказать услугу"*/
+
+.hero.button {
+  background-color: var(--accent-color);
+  color: var(--white);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  position: relative;
+  margin-left: 45%;
+}
+
+.hero.button:hover,
+.hero.button:focus {
+  background-color: var(--hero-button-hover-color);
+}
+
+/* features section style*/
+
+.features-list {
+  list-style: none;
+}
+
+.features-list .features-title {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--text-bold-color);
+  text-transform: uppercase;
+}
+.feature-description {
+  line-height: 1.71;
+}
+
+/* we do section */
+
+.we-do-list {
+  list-style: none;
+}
+.our-team-list {
+  list-style: none;
+}
+.team-member {
+  font-size: 16px;
+  line-height: 1.19;
+  font-weight: 500;
+  color: var(--text-bold-color);
+}
+.job-description {
+  font-size: 16px;
+  line-height: 1.18;
+}
+
+/* footer section styles*/
+
+.footer {
+  background-color: var(--footer-color);
+}
+.logo-footer {
+  font-family: 'Raleway', sans-serif;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
+  color: var(--white);
+}
+
+.footer-address {
+  color: var(--white);
+  font-style: normal;
+}
+.footer-contacts-list {
+  list-style: none;
+}
+.footer-links {
+  text-decoration: none;
+  color: var(--transparent-text-color);
+}
+
+.footer-links:hover,
+.footer-links:focus {
+  color: var(--accent-color);
+}
+
+/*-------STYLES FOR PAGE-------portfolio.html*/
+
+.portfolio-list {
+  list-style: none;
+}
+
+.portfolio-item-title {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--text-bold-color);
+}
+
+.portfolio-item-description {
+  font-size: 16px;
+  line-height: 1.87;
+}
+
+.filter-list {
+  list-style: none;
+}
+
+.filter.button {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.62;
+  color: var(--text-bold-color);
+}
+
+.filter.button:hover,
+.filter.button:focus {
+  background-color: var(--accent-color);
+  color: var(--white);
+}
